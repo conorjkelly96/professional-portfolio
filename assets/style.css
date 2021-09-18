@@ -44,18 +44,19 @@ body {
 }
 
 .header {
-  border: solid 5px black;
+  border: solid 5px yellow;
   display: flex;
-  background-color: var(--main-bg-color);
 }
 
 .navbar {
   border: solid 5px black;
 }
 
-nav ul li a {
+.navbar div a {
   justify-content: space-between;
   list-style-type: none;
+  max-width: 95%;
+  margin: 0 auto;
 }
 
 .profile-pic {
