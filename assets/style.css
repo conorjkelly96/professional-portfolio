@@ -26,8 +26,9 @@ body {
   border: solid 5px black;
 }
 
-.navbar ul li > .navlinks {
+nav ul li a {
   justify-content: space-between;
+  list-style-type: none;
 }
 
 .profile-pic {
@@ -42,4 +43,7 @@ body {
 
 .card-content {
   border: solid blue 5px;
+}
+
+.footer-banner {
 }
