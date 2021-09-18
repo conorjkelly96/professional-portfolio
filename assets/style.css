@@ -69,7 +69,7 @@ nav ul li a {
 }
 
 .card-content {
-  border: solid blue 5px;
+  border: solid blue 1px;
   display: flex;
 }
 
