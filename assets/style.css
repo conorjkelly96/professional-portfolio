@@ -37,6 +37,8 @@ body {
       #46eefa,
       #5ffbf1
     );
+  --pic-width: 150px;
+  --pic-height: 100px;
 }
 
 body {
@@ -60,8 +62,8 @@ body {
 }
 
 .profile-pic {
-  width: 100px;
-  height: 100px;
+  width: var(--pic-height);
+  height: var(--pic-width);
   border-radius: 100px;
 }
 
@@ -90,6 +92,8 @@ body {
 }
 
 .project-snapshot {
+  width: var(--pic-width);
+  height: var(--pic-height);
 }
 
 .project-body {
@@ -99,7 +103,6 @@ body {
 }
 
 .footer-banner {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
