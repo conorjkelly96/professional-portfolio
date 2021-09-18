@@ -17,6 +17,10 @@ body {
   }
 } */
 
+.profile-pic {
+  justify-content: center;
+}
+
 .header {
 }
 
