@@ -76,6 +76,8 @@ nav ul li a {
 .card-content {
   border: solid blue 1px;
   display: flex;
+  margin: 20x;
+  padding: 8px;
 }
 
 .card {
