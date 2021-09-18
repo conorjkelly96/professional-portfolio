@@ -10,14 +10,14 @@ body {
   animation-fill-mode: backwards;
 }
 
-/* @keyframes fadeInAnimation {
+@keyframes fadeInAnimation {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
   }
-} */
+}
 
 /* Declaring CSS variables */
 :root {
@@ -66,6 +66,11 @@ nav ul li a {
 
 .main-content {
   border: solid red 5px;
+}
+
+.latest-project {
+  display: flex;
+  border: black;
 }
 
 .card-content {
