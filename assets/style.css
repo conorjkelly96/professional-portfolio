@@ -17,18 +17,29 @@ body {
   }
 } */
 
-.profile-pic {
-  justify-content: center;
-}
-
 .header {
+  border: solid 5px black;
+  display: flex;
 }
 
-.navlinks {
+.navbar {
+  border: solid 5px black;
+}
+
+.navbar ul li > .navlinks {
+  justify-content: space-between;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
 }
 
 .main-content {
+  border: solid red 5px;
 }
 
 .card-content {
+  border: solid blue 5px;
 }
