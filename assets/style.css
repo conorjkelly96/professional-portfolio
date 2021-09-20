@@ -43,6 +43,8 @@ body {
 
 body {
   background-color: var(--a);
+  margin-left: 48px;
+  margin-right: 48px;
 }
 
 .header {
@@ -91,6 +93,17 @@ body {
   width: 18rem;
 }
 
+.card div img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.card div:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
 .project-snapshot {
   width: var(--pic-width);
   height: var(--pic-height);
@@ -105,8 +118,38 @@ body {
 .footer-banner {
   left: 0;
   bottom: 0;
+  position: fixed;
   width: 100%;
   background-color: black;
   color: white;
   text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
 }
