@@ -25,9 +25,7 @@ body {
   --pic-height: 100px;
 }
 
-* {
-  background-color: var(--main-bg-color);
-}
+
 body {
   background-color: var(--main-bg-color);
   margin-left: 48px;
