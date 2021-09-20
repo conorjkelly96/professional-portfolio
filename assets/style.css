@@ -64,7 +64,7 @@ body {
 .profile-pic {
   width: var(--pic-height);
   height: var(--pic-width);
-  border-radius: 100px;
+  border-radius: 100%;
 }
 
 .main-content {
