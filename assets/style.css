@@ -20,29 +20,16 @@ body {
 }
 
 /* Declaring CSS variables */
-:root {
-  --main-bg-color: background-color
-    linear-gradient(
-      to right top,
-      #d16ba5,
-      #c777b9,
-      #ba83ca,
-      #aa8fd8,
-      #9a9ae1,
-      #8aa7ec,
-      #79b3f4,
-      #69bff8,
-      #52cffe,
-      #41dfff,
-      #46eefa,
-      #5ffbf1
-    );
+:root 
   --pic-width: 150px;
   --pic-height: 100px;
 }
 
+* {
+  background-color: var(--main-bg-color);
+}
 body {
-  background-color: var(--a);
+  background-color: var(--main-bg-color);
   margin-left: 48px;
   margin-right: 48px;
 }
@@ -66,7 +53,7 @@ body {
 .profile-pic {
   width: var(--pic-height);
   height: var(--pic-width);
-  border-radius: 100%;
+  border-radius: 5px 10px 15px 20px;
 }
 
 .main-content {
@@ -98,6 +85,8 @@ body {
   transform: scale(1);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  --pic-width: 150px;
+  --pic-height: 100px;
 }
 .card div:hover img {
   -webkit-transform: scale(1.3);
