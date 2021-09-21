@@ -57,12 +57,14 @@ body {
   margin-left: 48px;
 }
 
-.navbar div a {
+.navbar {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  list-style-type: none;
-  max-width: 95%;
-  margin: 0 auto;
-  color: white;
 }
 
 .profile-pic {
@@ -73,7 +75,10 @@ body {
 
 .latest-project {
   display: flex;
-  border: black;
+  border: black solid 5px;
+}
+
+.latest-card {
 }
 
 .card-content {
@@ -132,7 +137,7 @@ body {
 .footer-banner {
   left: 0;
   bottom: 0;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   background-image: linear-gradient(
     to right top,
