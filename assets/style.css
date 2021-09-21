@@ -20,11 +20,10 @@ body {
 }
 
 /* Declaring CSS variables */
-:root 
+:root {
   --pic-width: 150px;
   --pic-height: 100px;
 }
-
 
 body {
   margin-left: 48px;
@@ -33,21 +32,29 @@ body {
 
 .header {
   display: flex;
-  background-image: linear-gradient(to right top, #1564c8, #2669cc, #326fcf, #3d74d3, #467ad6, #557dde, #637fe5, #7281ec, #8f7df6, #ae77fc, #cf6dfe, #f05ffb);
+  background-image: linear-gradient(
+    to right top,
+    #1564c8,
+    #2669cc,
+    #326fcf,
+    #3d74d3,
+    #467ad6,
+    #557dde,
+    #637fe5,
+    #7281ec,
+    #8f7df6,
+    #ae77fc,
+    #cf6dfe,
+    #f05ffb
+  );
   color: white;
 }
 
-.navbar {
-  
-}
-
-.main-content, .latest-project, .card-content{
+.main-content,
+.latest-project,
+.card-content {
   margin-right: 48px;
   margin-left: 48px;
-}
-
-.main-content {
-  /* display: flex; */
 }
 
 .navbar div a {
@@ -64,22 +71,17 @@ body {
   border-radius: 5px 10px 15px 20px;
 }
 
-.main-content {
-  
-}
-
 .latest-project {
   display: flex;
   border: black;
 }
 
-.card-content { 
+.card-content {
   display: flex;
   margin: 20x;
   padding: 8px;
   background-image: tr;
 }
-
 
 .card {
   justify-content: space-between;
@@ -87,7 +89,7 @@ body {
   margin: 10px;
   padding: 10px;
   width: 18rem;
-  background-color: #57585B;
+  background-color: #57585b;
 }
 
 .card:hover {
@@ -97,8 +99,22 @@ body {
   transition: 0.3s ease-in-out;
   -webkit-transform: scale(1.3);
   transform: scale(1.1);
-  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
   color: white;
 }
 
@@ -108,16 +124,9 @@ body {
   --pic-height: 100px;
 }
 
-
 .project-snapshot {
   width: var(--pic-width);
   height: var(--pic-height);
-}
-
-.project-body {
-}
-
-.btn .btn-primary {
 }
 
 .footer-banner {
@@ -125,8 +134,21 @@ body {
   bottom: 0;
   position: fixed;
   width: 100%;
-  background-image: linear-gradient(to right top, #1564c8, #2669cc, #326fcf, #3d74d3, #467ad6, #557dde, #637fe5, #7281ec, #8f7df6, #ae77fc, #cf6dfe, #f05ffb);
+  background-image: linear-gradient(
+    to right top,
+    #1564c8,
+    #2669cc,
+    #326fcf,
+    #3d74d3,
+    #467ad6,
+    #557dde,
+    #637fe5,
+    #7281ec,
+    #8f7df6,
+    #ae77fc,
+    #cf6dfe,
+    #f05ffb
+  );
   color: white;
   text-align: center;
 }
-
