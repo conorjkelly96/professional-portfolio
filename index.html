@@ -19,15 +19,15 @@
       <h1>Conor Kelly</h1>
       <nav class="navbar">
         <ul class="navlinks">
-          <li><a class="navlink" href="#">About Me</a></li>
-          <li><a class="navlink" href="#">Projects</a></li>
-          <li><a class="navlink" href="#">Contact Me</a></li>
+          <li><a class="navlink" href="#aboutme">About Me</a></li>
+          <li><a class="navlink" href="#latestproject">Projects</a></li>
+          <li><a class="navlink" href="#contactme">Contact Me</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="main-content">
+      <section id="aboutme" class="main-content">
         <h2>About Me</h2>
         <div>
           <img
@@ -50,10 +50,13 @@
         </p>
       </section>
 
-      <section class="latest-project">
-        <span class="latest-caption">
+      <section id="latestproject" class="latest-project">
+        <a
+          class="latest-caption"
+          href="https://conorjkelly96.github.io/semantic-html-refactoring-marketing-agency/"
+        >
           Latest Project: Code Refactoring using HTML5 and CSS3 technologies.
-        </span>
+        </a>
       </section>
 
       <section class="card-content">
@@ -152,7 +155,7 @@
       </section>
     </main>
 
-    <footer class="footer-banner">
+    <footer id="contactme" class="footer-banner">
       <a href="" src=""
         ><img class="social-icons" src="./assets/images/facebook2.png" alt=""
       /></a>
