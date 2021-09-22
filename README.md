@@ -38,69 +38,48 @@ I decided to use [BOOTSTRAP](https://getbootstrap.com/) to gain inspiration for 
         </div>
 ```
 
-This code was refactored to contain `<header>` and `<nav>` tags to give the document better semantic structure:
-
-```
-<header class="navbar">
-      <h1>Hori<span class="seo">seo</span>n</h1>
-      <!-- navbar containing links -->
-      <nav>
-        <ul>
-          <li>
-            <a href="#search-engine-optimization">Search Engine Optimization</a>
-          </li>
-          <li>
-            <a href="#online-reputation-management"
-              >Online Reputation Management</a
-            >
-          </li>
-          <li>
-            <a href="#social-media-marketing">Social Media Marketing</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-```
-
 ### CSS Code Refactoring
 
-I saw the original CSS code contained duplicate blocks of formatting, and found an opportunity to reduce complexity through class commonality. An example below represents the original source code:
+## Class Combinators
+
+Class Combinators were used, in particular the descendant selector, to group CSS properties in aim to keep the code clean and concise.
 
 ```
-.benefit-lead {
-  margin-bottom: 32px;
-  color: #ffffff;
+.main-content,
+.latest-project,
+.card-content {
+  margin: 48px;
 }
 
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
 ```
 
-Which was refactored to a single class within the HTML code and updated within the CSS code:
+CSS Variables for the background colors of the <header> and <footer> tags, alongside the the `.card` layout were used to keep the code tidy. The background color was created using [COLORSPACE](https://mycolor.space/).
 
 ```
-/* class commonality to alleviate need to duplicate CSS blocks */
-.benefit-subsection {
-  margin-bottom: 32px;
-  color: #ffffff;
+/* Declaring CSS variables */
+:root {
+  --pic-width: 150px;
+  --pic-height: 100px;
+  --backgroundcolor: linear-gradient(
+    to bottom,
+    #220952,
+    #271466,
+    #2a1f7b,
+    #292b91,
+    #2437a8,
+    #223bb6,
+    #1e3fc5,
+    #1743d4,
+    #273edd,
+    #3638e4,
+    #462fec,
+    #5621f2
+  );
 }
 ```
 
 ## Final Website Structure
 
-The layout of Horiseon's website after refactoring the CSS and HTML source code is shown below:
+The layout of my professional portfolio is shown below:
 
 ![Original Website](assets/images/01-html-css-git-homework-demo.png)
-
-Note, the layout and aesthetic design of the website has not changed. It's kept it's original layout, however the source code has been semantically refactored and improved to ensure improved Search Engine Optimization and accessibility.
-
-## To Do
-
-In the future, I will update this website to include media queries, ensuring the website is fit for users across different viewports.
