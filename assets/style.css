@@ -43,6 +43,8 @@ body {
   );
 }
 
+/* Header Section */
+
 .header {
   background-image: var(--backgroundcolor);
   color: white;
@@ -93,6 +95,8 @@ body {
   color: lightblue;
 }
 
+/* About Me Section */
+
 .profile-pic {
   width: 100px;
   height: 100px;
@@ -122,11 +126,12 @@ body {
   color: red;
 }
 
+/* main content */
+
 .card-content {
   display: flex;
   margin: 20x;
   padding: 8px;
-  background-image: tr;
 }
 
 .card {
@@ -159,6 +164,8 @@ body {
   width: var(--pic-width);
   height: var(--pic-height);
 }
+
+/* Footer & Socials */
 
 .footer-banner {
   bottom: 0;
