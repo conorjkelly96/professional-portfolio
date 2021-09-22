@@ -4,16 +4,11 @@
 
 This project consists of creating and designing my own webpage displaying links to my current GitHub repositories, social media links and an about me section.
 
-## Original Website
-
-Below is a screenshot from the original website prior to refactoring.
-
-![Original Website](assets/images/01-html-css-git-homework-demo.png)
-
 ## Technologies Used
 
 - HTML
 - CSS
+- BOOTSTRAP
 
 ## Link to GitHub Pages
 
@@ -21,31 +16,26 @@ Below is a screenshot from the original website prior to refactoring.
 
 ## Solution Overview
 
-### HTML Code Refactoring
+### HTML Code
 
-The original Horiseon website contained no semantic HTML syntax. Firstly, I restructured the HTML code to contain more semantic syntax.
+The structure of the website consisted of a variety of elements, most of which contained images, icons and text which needed formatting.
 
-The code below is an example of the original source code:
+I decided to use [BOOTSTRAP](https://getbootstrap.com/) to gain inspiration for high quality card designs. The below is an example of modifications to the bootstrap card style used in this project.
 
 ```
-<div class="header">
-      <h1>Hori<span class="seo">seo</span>n</h1>
-      <div>
-        <ul>
-          <li>
-            <a href="#search-engine-optimization">Search Engine Optimization</a>
-          </li>
-          <li>
-            <a href="#online-reputation-management"
-              >Online Reputation Management</a
-            >
-          </li>
-          <li>
-            <a href="#social-media-marketing">Social Media Marketing</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+<div class="card">
+          <div>
+            <img
+              class="project-snapshot"
+              src="./assets/images/demandplanning.jpeg"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="project-body">
+            <h5 class="card-title">Demand Planning</h5>
+            <p class="card-text">Python | R</p>
+          </div>
+        </div>
 ```
 
 This code was refactored to contain `<header>` and `<nav>` tags to give the document better semantic structure:
