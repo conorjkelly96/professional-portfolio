@@ -98,9 +98,14 @@ ul.navlinks {
   border-radius: 0.1%;
 }
 
+.latest-caption {
+  background-color: black;
+  width: auto;
+}
+
 .latest-project:hover {
   opacity: 0.5;
-  border-color: violet;
+  background-image: linear-gradient();
 }
 
 .card-content {
@@ -163,4 +168,8 @@ ul.navlinks {
   background-image: url(./images/banner.jpeg);
   color: white;
   text-align: center;
+}
+
+.social-icons {
+  width: 50px;
 }
