@@ -31,27 +31,14 @@ body {
 }
 
 .header {
-  background-image: linear-gradient(
-    to right top,
-    #1564c8,
-    #2669cc,
-    #326fcf,
-    #3d74d3,
-    #467ad6,
-    #557dde,
-    #637fe5,
-    #7281ec,
-    #8f7df6,
-    #ae77fc,
-    #cf6dfe,
-    #f05ffb
-  );
+  background-image: 
   color: white;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  border: solid 5px blue;
 }
 
 .main-content,
@@ -59,6 +46,11 @@ body {
 .card-content {
   margin-right: 48px;
   margin-left: 48px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .navbar {
