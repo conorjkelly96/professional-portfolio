@@ -108,8 +108,9 @@ body {
   background-image: url(./images/refactoring2.jpeg);
   border: 2px solid black;
   padding: 100px;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
   color: white;
   border-radius: 10px 10px 10px 10px;
 }
@@ -193,56 +194,70 @@ body {
 
 /* 	extra small resolutions (or xs) */
 @media screen and (max-width: 360px) {
-.main-content,
-.latest-project,
-.card-content {
-  display: flex;
-  flex-direction: column;
-}
-.card {
-  padding-top: 24px;
-}
-.footer-banner {
-  position: relative;
-}}
-
-/* 	small resolutions (or sm) */
-@media screen and (max-width: 768px) {.main-content,
+  .main-content,
   .latest-project,
   .card-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    padding-top: 24px;
+  }
+  .footer-banner {
+    position: relative;
+  }
 }
-.card {
-  padding-top: 24px;
-}
-.footer-banner {
-  position: relative;
+
+/* 	small resolutions (or sm) */
+@media screen and (max-width: 768px) {
+  .main-content,
+  .latest-project,
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    padding-top: 24px;
+  }
+  .footer-banner {
+    position: relative;
+  }
 }
 
 /* 	medium resolutions (or md) */
-@media screen and (max-width: 1024px) {.main-content,
+@media screen and (max-width: 1024px) {
+  .main-content,
   .latest-project,
   .card-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    padding-top: 24px;
+  }
+  .footer-banner {
+    position: relative;
+  }
 }
-.card {
-  padding-top: 24px;
-}
-.footer-banner {
-  position: relative;
-}
-
 
 /* large resolutions (or lg) */
-@media screen and (max-width: 1280px);
- {
-}
-
-/* 	extra large resolutions (or xl) */
-@media screen and (min-width: 1281px);
- {
+@media screen and (max-width: 1280px) {
+  .main-content,
+  .latest-project,
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .card {
+    padding-top: 24px;
+  }
+  .footer-banner {
+    position: relative;
+  }
 }
