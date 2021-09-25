@@ -12,7 +12,7 @@ This project consists of creating and designing my own webpage displaying links 
 
 ## Link to GitHub Pages
 
-[Click here!](https://conorjkelly96.github.io/semantic-html-refactoring-marketing-agency/)
+[Click here!](https://conorjkelly96.github.io/professional-portfolio/)
 
 ## Solution Overview
 
@@ -53,7 +53,7 @@ Class Combinators were used, in particular the descendant selector, to group CSS
 
 ```
 
-CSS Variables for the background colors of the <header> and <footer> tags, alongside the the `.card` layout were used to keep the code tidy. The background color was created using [COLORSPACE](https://mycolor.space/).
+CSS Variables for the background colors of the <header> and <footer> tags, alongside the the `.card` layout were used to keep the code tidy. The background color was created using [COLORSPACE](https://mycolor.space/). 
 
 ```
 /* Declaring CSS variables */
