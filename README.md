@@ -2,7 +2,7 @@
 
 ## About the project
 
-This project consists of creating and designing my own webpage displaying links to my current GitHub repositories, social media links and an about me section.
+This project consists of creating and designing my own webpage displaying links to my current GitHub repositories, social media links and an about me section. Furtherdown in this README you will find links to my professional portfolio. 
 
 ## Technologies Used
 
