@@ -82,4 +82,4 @@ CSS Variables for the background colors of the <header> and <footer> tags, along
 
 The layout of my professional portfolio is shown below:
 
-![Original Website](./assets)
+![Professional Portfolio](./assets/images/Professional Por.png)
