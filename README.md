@@ -2,7 +2,7 @@
 
 ## About the project
 
-This project consists of creating and designing my own webpage displaying links to my current GitHub repositories, social media links and an about me section. Furtherdown in this README you will find links to my professional portfolio. 
+This project consists of creating and designing my own webpage displaying links to my current GitHub repositories, social media links and an about me section. Furtherdown in this README you will find links to my professional portfolio.
 
 ## Technologies Used
 
@@ -53,7 +53,7 @@ Class Combinators were used, in particular the descendant selector, to group CSS
 
 ```
 
-CSS Variables for the background colors of the <header> and <footer> tags, alongside the the `.card` layout were used to keep the code tidy. The background color was created using [COLORSPACE](https://mycolor.space/). 
+CSS Variables for the background colors of the <header> and <footer> tags, alongside the the `.card` layout were used to keep the code tidy. The background color was created using [COLORSPACE](https://mycolor.space/).
 
 ```
 /* Declaring CSS variables */
@@ -82,4 +82,4 @@ CSS Variables for the background colors of the <header> and <footer> tags, along
 
 The layout of my professional portfolio is shown below:
 
-![Original Website](assets/images/01-html-css-git-homework-demo.png)
+![Original Website](./assets)
