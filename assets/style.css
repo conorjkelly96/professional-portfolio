@@ -95,8 +95,6 @@ body {
   color: lightblue;
 }
 
-/* About Me Section */
-
 .profile-pic {
   width: 100px;
   height: 100px;
@@ -170,8 +168,7 @@ body {
 
 .footer-banner {
   bottom: 0;
-  padding: 24px;
-  position: fixed;
+  position: relative;
   width: 100%;
   justify-content: space-evenly;
   color: white;
@@ -190,7 +187,7 @@ body {
   opacity: 1;
 }
 
-/* Media Queries */
+/* Media Queries
 
 /* 	extra small resolutions (or xs) */
 @media screen and (max-width: 360px) {
@@ -273,6 +270,6 @@ body {
     padding-top: 24px;
   }
   .footer-banner {
-    position: fixed;
+    position: relative;
   }
 }
