@@ -14,9 +14,9 @@ This project consists of creating and designing my own webpage displaying links 
 
 [Click here!](https://conorjkelly96.github.io/professional-portfolio/)
 
-## Solution Overview
+### Solution Overview
 
-### HTML Code
+## HTML Code
 
 The structure of the website consisted of a variety of elements, most of which contained images, icons and text which needed formatting.
 
@@ -38,7 +38,7 @@ I decided to use [BOOTSTRAP](https://getbootstrap.com/) to gain inspiration for 
         </div>
 ```
 
-### CSS Code Refactoring
+### CSS Code
 
 ## Class Combinators
 
