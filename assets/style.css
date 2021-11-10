@@ -153,6 +153,17 @@ body {
   color: white;
 }
 
+.card-title {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+}
+
+.card-title:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .card div .project-snapshot {
   align-items: center;
   --pic-width: 150px;
