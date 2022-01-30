@@ -103,7 +103,7 @@ body {
 }
 
 .latest-project {
-  background-image: url(./images/refactoring2.jpeg);
+  background-image: url(./images/bored-as-book.png);
   border: 2px solid black;
   padding: 100px;
   background-size: cover;
@@ -114,15 +114,15 @@ body {
 }
 
 .latest-caption {
-  background-color: #5621f2;
+  background-color: #e91fce;
   font-size: 24px;
   width: auto;
-  text-decoration-style: none;
+  text-decoration: none;
   color: white;
 }
 
 .latest-caption:hover {
-  color: red;
+  color: black;
 }
 
 /* main content */
@@ -151,6 +151,17 @@ body {
   background-image: var(--backgroundcolor);
   box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
   color: white;
+}
+
+.card-title {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+}
+
+.card-title:hover {
+  text-decoration: none;
+  color: #d41717;
 }
 
 .card div .project-snapshot {
